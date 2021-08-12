@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>{{ title }}</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="{{ description }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/static/global.css" />
+  </head>
+  <body>
+    <header>
+      <p id="site-logo">
+        <a href="/">Our Demo Site</a>
+      </p>
+      <p id="open-cart">#OPEN CART#</p>
+    </header>
+
+    {{ content | safe }}
+  </body>
+</html>

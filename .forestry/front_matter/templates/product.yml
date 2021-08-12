@@ -31,3 +31,5 @@ fields:
     schema:
       format: markdown
   label: Description
+pages:
+- src/products/nau-shaker.md
